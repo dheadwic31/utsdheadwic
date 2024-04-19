@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yogyakarta</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: rgba(140, 55, 35, 0.7);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #f78a53 3px solid;
+        }
+        header h1 {
+            padding-left: 20px;
+            margin: 0;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #a2562c;
+        }
+        .info-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .info-section h2 {
+            color: #783a1f;
+        }
+        .info-section p {
+            line-height: 1.6;
+        }
+        footer {
+            background: rgba(174, 101, 45, 0.876);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Informasi Yogyakarta</h1>
+            <nav>
+                <ul>
+
+                    <li><a href="./bali.html">Bali</a></li>
+                    <li><a href="./bunaken.html">Bunaken</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="info-section">
+            <h2>Destinasi Populer di Yogyakarta</h2>
+            <p>Yogyakarta adalah salah satu destinasi wisata terbaik di Indonesia, kota yang kaya akan budaya, sejarah, dan keindahan alamnya. Beberapa destinasi populer di Yogyakarta antara lain:</p>
+            <ul>
+                <li>Candi Borobudur</li>
+                <li>Candi Prambanan</li>
+                <li>Kraton Yogyakarta</li>
+                <li>Pantai Parangtritis</li>
+                <li>Bukit Breksi</li>
+            </ul>
+        </section>
+
+        <section class="info-section">
+            <h2>Wisata Kuliner</h2>
+            <p>Yogyakarta juga terkenal dengan kelezatan masakan dan makanan khasnya. Beberapa hidangan yang harus Anda coba saat berkunjung ke Yogyakarta antara lain:</p>
+            <ul>
+                <li>Gudeg</li>
+                <li>Soto Kadipiro</li>
+                <li>Bakpia Pathok</li>
+                <li>Mie Ayam</li>
+                <li>Gatot</li>
+            </ul>
+        </section>
+
+        <section class="info-section">
+            <h2>Kegiatan Seru di Yogyakarta</h2>
+            <p value="4">Yogyakarta menawarkan berbagai kegiatan seru selain menikmati keindahan alam dan kuliner, seperti:</p>
+            <ul>
+                <li>Menjelajahi Goa Jomblang</li>
+                <li>Mendaki Merapi</li>
+                <li>Belajar membuat Batik</li>
+                <li>Mengunjungi Desa Wisata Kasongan</li>
+                <li>Melihat seni pertunjukan Wayang Kulit</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 dheadwic</p>
+    </footer>
+</body>
+</html>

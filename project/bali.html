@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bali</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: rgba(247, 174, 27, 0.756);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #271e06 3px solid;
+        }
+        header h1 {
+            padding-left: 20px;
+            margin: 0;
+            font-size: 2em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #3498db;
+        }
+        .info-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .info-section h2 {
+            color: #ae8513;
+        }
+        .info-section p {
+            line-height: 1.6;
+        }
+        footer {
+            background: rgba(199, 170, 26, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 11px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Informasi Bali</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="./yogyakarta.html">Yogyakarta</a></li>
+                    <li><a href="./bunaken.html">Bunaken</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="info-section">
+            <h2>Destinasi Populer di Bali</h2>
+            <p>Bali merupakan salah satu destinasi wisata terpopuler di Indonesia, terkenal dengan pantainya yang indah, budaya yang kaya, dan keramahannya. Beberapa destinasi populer di Bali antara lain:</p>
+            <ul>
+                <li>Pantai Kuta</li>
+                <li>Pura Tanah Lot</li>
+                <li>Ubud</li>
+                <li>Pura Besakih</li>
+                <li>Gunung Batur</li>
+            </ul>
+        </section>
+
+        <section class="info-section">
+            <h2>Wisata Kuliner</h2>
+            <p>Bali juga terkenal dengan kelezatan masakan dan makanan khasnya. Beberapa hidangan yang harus Anda coba saat berkunjung ke Bali antara lain:</p>
+            <ul>
+                <li>Babi Guling</li>
+                <li>Lawar</li>
+                <li>Sate Lilit</li>
+                <li>Nasi Campur Bali</li>
+                <li>Ayam Betutu</li>
+            </ul>
+        </section>
+
+        <section class="info-section">
+            <h2>Kegiatan Seru di Bali</h2>
+            <p value="4">Selain menikmati keindahan alam dan kuliner, Bali juga menawarkan beragam kegiatan seru bagi para wisatawan, seperti:</p>
+            <ul>
+                <li>Surfing di Pantai Kuta</li>
+                <li>Rafting di Sungai Ayung</li>
+                <li>Menjelajahi Goa Gajah</li>
+                <li>Menyaksikan Pertunjukan Tari Kecak di Uluwatu</li>
+                <li>Mengikuti Kelas Masak Bali</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024dheadwic </p>
+    </footer>
+    </footer>
+</body>
+</html>
